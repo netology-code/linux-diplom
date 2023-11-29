@@ -121,7 +121,7 @@
     - вывод команды `openssl verify <путь до сертификата для веб-сервера>` на **frontend1**;
     - вывод команды `iptables-save` с **frontend1**;
     - вывод команды `dig axfr my-project.loc` с **frontend1**;
-    - вывод команды `curl -v https://my-project.loc/` c **frontend1**. Не обязательно полностью, главное, чтобы не было сообщений об ошибках;
+    - вывод команды `curl -v https://my-project.loc/` c **frontend1**;
     - скрипт резервного копирования с **backend1**;
     - вывод команды `sudo crontab -l` __или__ конфигурационный файл `/etc/crontab` с задачей запуска резервного копирования с **backend1**.
 
